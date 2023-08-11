@@ -1,0 +1,100 @@
+.sectionMap{
+
+}
+
+.sectionMap .sectionMap_wrap{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    margin-top: 30px;
+    gap: 60px;
+}
+.sectionMap .sectionMap_wrap .col1, .sectionMap .sectionMap_wrap .col2{
+    width: 50%;
+}
+
+.sectionMap .sectionMap_wrap .col1{
+}
+.sectionMap .sectionMap_wrap .col2{
+}
+
+.sectionMap .sectionMap_wrap .callbackForm{
+    padding: 60px 40px;
+    border-radius: .25rem;
+    background-color: var(--main-green);
+    background-image: url("/img/spot.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.sectionMap .sectionMap_wrap .callbackForm h2{
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--main-black);
+    margin-bottom: 30px;
+}
+.sectionMap .sectionMap_wrap .callbackForm input{
+    width: 300px;
+    height: 50px;
+
+
+    border: none;
+    border-radius: .25rem;
+    text-indent: 15px;
+}
+.sectionMap .sectionMap_wrap .callbackForm input::-webkit-outer-spin-button,
+.sectionMap .sectionMap_wrap .callbackForm input::-webkit-inner-spin-button {
+    display: none;
+    line-height: .9em;
+}
+.sectionMap .sectionMap_wrap .callbackForm input::placeholder{
+    font-size: 1.4em;
+}
+
+.sectionMap .sectionMap_wrap .col2 p{
+    margin-bottom: 6px;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    font-size: .8em;
+    color: var(--main-black);
+}
+
+.sectionMap .sectionMap_wrap iframe{
+    width: 100%;
+    height: 400px;
+    border-radius: .25rem;
+}
+
+@media screen and (max-width: 1025px) {
+    .sectionMap .sectionMap_wrap{
+        flex-direction: column;
+    }
+    .sectionMap .sectionMap_wrap .col1, .sectionMap .sectionMap_wrap .col2{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 769px) {
+
+}
+@media screen and (max-width: 426px) {
+
+}
+
+@media screen and (max-width: 376px) {
+    .sectionMap .sectionMap_wrap .callbackForm {
+        flex-direction: column;
+        padding: 60px 20px;
+    }
+
+}
+@media screen and (max-width: 321px) {
+    .sectionMap .sectionMap_wrap .callbackForm h2{
+        font-size: 1.4em;
+    }
+    .sectionMap .sectionMap_wrap .callbackForm input{
+        width: 256px;
+    }
+
+}
