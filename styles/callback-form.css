@@ -1,0 +1,32 @@
+.callbackForm{
+    padding: 60px 40px;
+    border-radius: .5rem;
+    background-color: var(--main-green);
+    background-image: url("/img/spot.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.callbackForm h2{
+    font-size: 1.8em !important;
+    font-weight: bold;
+    color: var(--main-black);
+    margin-bottom: 30px;
+}
+.callbackForm input{
+    width: 300px;
+    height: 50px;
+
+
+    border: none;
+    border-radius: .25rem;
+    text-indent: 15px;
+}
+.callbackForm input::-webkit-outer-spin-button,
+.callbackForm input::-webkit-inner-spin-button {
+    display: none;
+    line-height: .9em;
+}
+.callbackForm input::placeholder{
+    font-size: 1.4em;
+}

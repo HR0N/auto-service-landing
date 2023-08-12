@@ -1,0 +1,81 @@
+.section-price-services{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-price-services h2{
+    font-size: 3em;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.section-price-services__content{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+}
+
+.section-price-services  .col1{}
+
+.section-price-services  .col1 .services-list{
+    display: flex;
+    flex-direction: column;
+
+    gap: 4px;
+    width: clamp(300px, 100%, 100%);
+}
+.section-price-services  .col1 .services-list .service-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 48px;
+    padding: 10px 16px;
+    overflow: hidden;
+    background-color: rgba(9, 141, 54, 0.15);
+}
+
+
+.service-list .caption .chevron{
+    width: 16px;
+    transition: .2s;
+    user-select: none;
+}
+.service-list .caption .chevron.rotate180{
+    transform: rotate(180deg);
+}
+
+.section-price-services  .col1 .services-list .caption{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+}
+.services-list_caption{
+    margin-bottom: 10px;
+}
+
+.section-price-services  .col2{}
+
+
+.section-price-services__content .col1, .section-price-services__content .col2{
+    width: 50%;
+}
+
+
+@media screen and (max-width: 1025px) {
+    .section-price-services__content{
+        flex-direction: column;
+    }
+    .section-price-services__content .col1, .section-price-services__content .col2{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 769px) {
+
+}
+@media screen and (max-width: 426px) {
+
+}
+@media screen and (max-width: 321px) {
+
+}

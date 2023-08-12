@@ -1,0 +1,99 @@
+.section-our-services{
+}
+
+.section-our-services h2{
+    margin: 40px 0;
+    font-size: 3em;
+}
+
+.section-our-services__content{
+    display: flex;
+    justify-content: left;
+}
+.section-our-services__content .service{
+    text-align: center;
+
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+.section-our-services__content .service .col1{}
+.section-our-services__content .service .col2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-our-services__content .service:nth-last-child(1){
+    border-right: none;
+}
+.section-our-services__content .service .title{
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.section-our-services__content .service .address{
+    color: #3d3d3d;
+    line-height: 21px;
+}
+.section-our-services__content .service .navigator{
+    font-size: .9em;
+    width: 164px;
+
+    padding: 10px 0;
+    margin: 10px auto;
+    color: #2BBA7D;
+    background-color: #DDF9EA;
+    cursor: pointer;
+    border-radius: .25rem;
+    text-align: center;
+}
+.section-our-services__content .service .navigator:hover{
+    text-decoration: underline;
+}
+.section-our-services__content .service .picture{
+    margin-top: 10px;
+}
+.section-our-services__content .service .picture img{
+    width: 250px;
+    border-radius: .1rem;
+}
+
+
+@media screen and (max-width: 1025px) {
+    .section-our-services__content{
+        flex-direction: column;
+    }
+    .section-our-services__content .service{
+        display: flex;
+        justify-content: space-between;
+
+        padding: 10px 0;
+        width: 100%;
+        border-right: none;
+        text-align: left;
+    }
+    .section-our-services__content .service .picture{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 769px) {
+
+}
+@media screen and (max-width: 426px) {
+    .section-our-services h2{
+        font-size: 2em;
+    }
+    .section-our-services__content .service .navigator{
+        width: 140px;
+    }
+
+}
+@media screen and (max-width: 321px) {
+    .section-our-services__content{
+        font-size: .9em;
+    }
+    .section-our-services__content .service .navigator{
+        width: 120px;
+    }
+
+}

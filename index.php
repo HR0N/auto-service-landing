@@ -13,9 +13,12 @@
 
     <!--    styles      -->
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/callback-form.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/section.css">
-    <link rel="stylesheet" href="styles/sectionMap.css">
+    <link rel="stylesheet" href="styles/section-map.css">
+    <link rel="stylesheet" href="styles/section-our-services.css">
+    <link rel="stylesheet" href="styles/section-price-services.css">
 
     <title>Real Park</title>
 </head>
@@ -47,9 +50,9 @@
 
 <main>
 
-    <section class="section sectionMap">
+    <section class="section section-map">
         <h1>СТО в Києві - Real Park</h1>
-        <div class="sectionMap_wrap">
+        <div class="section-map_wrap">
             <div class="col1">
                 <div class="callbackForm">
                     <h2>Запис / Консультація</h2>
@@ -63,6 +66,70 @@
         </div>
     </section>
 
+
+    <section class="section section-our-services">
+        <h2>Наші автосервіси</h2>
+        <div class="section-our-services__content">
+
+            <div class="service">
+                <div class="col1">
+                    <div class="title">Real Park лівий берег</div>
+                    <div class="address">вул. Клеманская, 1/5<br/>Дарницький р-н</div>
+                </div>
+                <div class="col2">
+                    <div class="navigator">ЯК ДОЇХАТИ?</div>
+                    <div class="picture"><img src="https://oiler.pro/media/oiler/carservices/5_.png" alt=""></div>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="col1">
+                    <div class="title">Real Park правий берег</div>
+                    <div class="address">вул. Клеманская, 1/5<br/>Печерський р-н</div>
+                </div>
+                <div class="col2">
+                    <div class="navigator">ЯК ДОЇХАТИ?</div>
+                    <div class="picture"><img src="https://oiler.pro/media/oiler/carservices/5_.png" alt=""></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="section section-price-services">
+        <h2>Ціни на послуги</h2>
+        <div class="section-price-services__content">
+            <div class="col1">
+                <div class="services-list">
+                    <div class="caption services-list_caption">
+                        <div>ОСНОВНІ ПОСЛУГИ</div>
+                        <div>ЦІНИ</div>
+                    </div>
+
+                    <div class="service-list">
+                        <div class="caption">
+                            <div>Діагностика автомобіля</div>
+                            <div><img class="chevron" src="img/icons/chevron-down-solid.svg"></div>
+                        </div>
+                        <div class="literal">
+                            <div class="service"></div>
+                            <div class="price"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col2">
+                <div class="callbackForm">
+                    <h2>Запис / Консультація</h2>
+                    <label><input type="tel" placeholder="Введіть телефон"></label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 </main>
 
 
@@ -71,7 +138,9 @@
 <script src="jquery/jquery.js"></script>
 <script src="js/father.js"></script>
 <script src="js/header.js"></script>
+<script src="js/services-list.js"></script>
 <script>$(document).ready(() => { new Header('header') })</script>
+<script>$(document).ready(() => { new ServicesList('.section-price-services') })</script>
 
 </body>
 </html>
