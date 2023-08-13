@@ -25,13 +25,14 @@
 }
 .section-price-services  .col1 .services-list .service-list{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
-    height: 48px;
-    padding: 10px 16px;
+    gap: 4px;
+    max-height: 48px;
     overflow: hidden;
-    background-color: rgba(9, 141, 54, 0.15);
+    transition: linear .3s;
 }
 
 
@@ -47,11 +48,34 @@
 .section-price-services  .col1 .services-list .caption{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
     width: 100%;
     cursor: pointer;
 }
+.section-price-services  .col1 .service-list .caption{
+    min-height: 48px;
+    gap: 10px;
+    padding: 10px 16px;
+    background-color: rgba(9, 141, 54, 0.15);
+}
 .services-list_caption{
     margin-bottom: 10px;
+}
+.section-price-services  .col1 .services-list .service-list .sub-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 10px;
+    padding: 10px 16px;
+    width: 100%;
+    min-height: 48px;
+    font-size: .9em;
+    background-color: whitesmoke;
+}
+.section-price-services  .col1 .services-list .service-list .sub-item .price{
+    font-weight: bold;
 }
 
 .section-price-services  .col2{}
@@ -77,5 +101,7 @@
 
 }
 @media screen and (max-width: 321px) {
-
+    .section-price-services  .col1 .services-list .caption{
+        font-size: .9em;
+    }
 }

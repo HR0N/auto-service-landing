@@ -112,9 +112,66 @@
                             <div>Діагностика автомобіля</div>
                             <div><img class="chevron" src="img/icons/chevron-down-solid.svg"></div>
                         </div>
-                        <div class="literal">
-                            <div class="service"></div>
-                            <div class="price"></div>
+                        <div class="sub-item">
+                            <div class="service">Діагностика кондиціонера (візуальний огляд)</div>
+                            <div class="price">388</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Діагностика системи електроживлення автомобіля</div>
+                            <div class="price">148</div>
+                        </div>
+                    </div>
+
+                    <div class="service-list">
+                        <div class="caption">
+                            <div>Заміна технічних рідин та фільтрів</div>
+                            <div><img class="chevron" src="img/icons/chevron-down-solid.svg"></div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна оливи у двигуні</div>
+                            <div class="price">598</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Змащення 1 хрестовини карданного валу</div>
+                            <div class="price">1798</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Часткова заміна рідини в АКПП із заміною фільтра АКПП</div>
+                            <div class="price">198</div>
+                        </div>
+                    </div>
+
+                    <div class="service-list">
+                        <div class="caption">
+                            <div>Гальмівна система</div>
+                            <div><img class="chevron" src="img/icons/chevron-down-solid.svg"></div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна ремкомплекту гальмівного супорта 4 поршня</div>
+                            <div class="price">1698</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Перевірка биття задніх гальмівних дисків</div>
+                            <div class="price">588</div>
+                        </div>
+                    </div>
+
+                    <div class="service-list">
+                        <div class="caption">
+                            <div>Заміна технічних рідин та фільтрів</div>
+                            <div><img class="chevron" src="img/icons/chevron-down-solid.svg"></div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна оливи у двигуні</div>
+                            <div class="price">598</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Змащення 1 хрестовини карданного валу</div>
+                            <div class="price">1798</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Часткова заміна рідини в АКПП із заміною фільтра АКПП</div>
+                            <div class="price">198</div>
                         </div>
                     </div>
 

@@ -10,13 +10,23 @@ class ServicesList extends father{
     serviceClickHandler(e){
         const cur_service = $(e.currentTarget).find('.chevron');
         this.services_list.map((k, v)=>{
-            if(cur_service.index() === k) return;
-            $(v).find('.chevron').removeClass('rotate180');
+            if($(e.currentTarget).index() - 1 !== k){
+                $(v).find('.chevron').removeClass('rotate180');
+                $(v).css({'maxHeight': `48px`});
+            }
         });
         if(cur_service.hasClass('rotate180')){
             cur_service.removeClass('rotate180');
+            $(e.currentTarget).css({'maxHeight': `48px`});
         }else{
             cur_service.addClass('rotate180');
+
+            let cur_element_height = 48;
+            const sub_items = $(e.currentTarget).find('.sub-item');
+            sub_items.map((k, v)=>{
+                cur_element_height += $(v).outerHeight(true) + 4;
+            });
+            $(e.currentTarget).css({'maxHeight': `${cur_element_height}px`});
         }
     }
 
