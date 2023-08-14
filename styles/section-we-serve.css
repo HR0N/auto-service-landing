@@ -1,0 +1,23 @@
+.section-we-serve{
+
+}
+.section-we-serve .title{
+    font-size: 2.6em;
+    font-weight: bold;
+}
+.section-we-serve .brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 50px;
+}
+.section-we-serve .brands .item{
+    display: flex;
+    justify-content: center;
+    width: calc(25% - 40px);
+    padding: 20px 0;
+    background-color: whitesmoke;
+}
+.section-we-serve .brands .item img{
+}

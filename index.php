@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 
+    <!--    slider  -->
+    <link rel="stylesheet" href="libs/slider/slider.css">
+<!--    <link rel="stylesheet" href="libs/slider/slick-theme.css">-->
+
     <!--    styles      -->
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/callback-form.css">
@@ -19,6 +23,9 @@
     <link rel="stylesheet" href="styles/section-map.css">
     <link rel="stylesheet" href="styles/section-our-services.css">
     <link rel="stylesheet" href="styles/section-price-services.css">
+    <link rel="stylesheet" href="styles/section-reasons-for-cooperation.css">
+    <link rel="stylesheet" href="styles/section-our-scheme.css">
+    <link rel="stylesheet" href="styles/section-we-serve.css">
 
     <title>Real Park</title>
 </head>
@@ -187,6 +194,85 @@
     </section>
 
 
+    <section class="section section-reasons-for-cooperation">
+        <h2 class="title">Причини обрати Real Park</h2>
+        <div class="content">
+            <div class="item">
+                <div class="item__title">Час</div>
+                <div class="item__description">Ви витрачаєте годину часу, а не день</div>
+            </div>
+            <div class="item">
+                <div class="item__title">Комфорт</div>
+                <div class="item__description">Вам професійно підберуть оливу</div>
+            </div>
+            <div class="item">
+                <div class="item__title">Безпека</div>
+                <div class="item__description">Ви отримуєте офіційний товар</div>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slider__item"><img src="https://r4.wallpaperflare.com/wallpaper/371/112/1006/girl-machine-model-cars-wallpaper-b537acf7b114409cbe6567db58115792.jpg" alt=""></div>
+            <div class="slider__item"><img src="https://c0.wallpaperflare.com/path/765/33/117/adult-auto-automobile-body-97e772748fd692114548a0f9f53a9cdb.jpg" alt=""></div>
+            <div class="slider__item"><img src="https://r4.wallpaperflare.com/wallpaper/924/644/1001/mitsubishi-tuning-car-cigarettes-wallpaper-f2e1a2900df68e0b4a1862c510d8c962.jpg" alt=""></div>
+        </div>
+    </section>
+
+
+    <section class="section section-our-scheme">
+        <h2 class="title">Схема нашої роботи</h2>
+        <div class="title2">Зручна та зрозуміла схема, що дозволяє звести вашу участь до мінімуму</div>
+        <div class="our-scheme__list">
+            <div class="our-scheme__item">
+                <img src="img/icons/s1.png" alt="">
+                <div class="description">1. Запишіться в 1 клік через форму на сайті</div>
+            </div>
+            <div class="our-scheme__item">
+                <img src="img/icons/s2.png" alt="">
+                <div class="description">2. Протягом 5 хв зателефонує менеджер, підбере зручну станцію та час для робіт</div>
+            </div>
+            <div class="our-scheme__item">
+                <img src="img/icons/s3.png" alt="">
+                <div class="description">3. Ви отримуєте якісно виконану роботу і гарантію</div>
+            </div>
+            <div class="our-scheme__item">
+                <img src="img/icons/s4.png" alt="">
+                <div class="description">4. Ви задоволені та залишаєте нам гарний відгук</div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section section-we-serve">
+        <div class="title">Ми обслуговуємо</div>
+        <div class="brands">
+            <div class="item">
+                <img src="img/car_brands/hyundai.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/car_brands/kia.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/car_brands/mazda.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/car_brands/renault.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/car_brands/skoda.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/car_brands/ssangyong.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/car_brands/toyota.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/car_brands/volkswagen.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
 </main>
 
 
@@ -196,8 +282,12 @@
 <script src="js/father.js"></script>
 <script src="js/header.js"></script>
 <script src="js/services-list.js"></script>
+<script src="js/slider-settings.js"></script>
 <script>$(document).ready(() => { new Header('header') })</script>
 <script>$(document).ready(() => { new ServicesList('.section-price-services') })</script>
+
+<script src="libs/slider/slider.js"></script>
+<script>$(document).ready(() => { new SliderSettings('.slider') })</script>
 
 </body>
 </html>

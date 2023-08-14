@@ -143,5 +143,7 @@ header{
     }
 }
 @media screen and (max-width: 321px) {
-
+    .header-content .logo img{
+        width: 320px;
+    }
 }

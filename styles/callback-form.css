@@ -30,3 +30,26 @@
 .callbackForm input::placeholder{
     font-size: 1.4em;
 }
+
+
+@media screen and (max-width: 1025px) {
+
+}
+@media screen and (max-width: 769px) {
+
+}
+@media screen and (max-width: 426px) {
+    .callbackForm h2{
+        font-size: 1.3em !important;
+    }
+    .callbackForm label{
+        width: 100%;
+    }
+    .callbackForm input{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 321px) {
+
+}
