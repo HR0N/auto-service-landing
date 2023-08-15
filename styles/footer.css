@@ -1,0 +1,107 @@
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: var(--main-green);
+    padding: 60px 160px;
+}
+
+footer .module{
+    position: relative;
+}
+
+footer .callback{}
+footer .callback .callbackForm{
+    font-size: 1em;
+    padding: 0;
+    background-image: none;
+    background-color: transparent;
+}
+footer .callback .callbackForm label{
+    width: 100%;
+}
+footer .callback .callbackForm h2{
+    margin-bottom: 10px;
+}
+
+footer .work_schedule{}
+footer .work_schedule .title{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+footer .work_schedule .wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer .work_schedule .wrap .text{
+}
+footer .work_schedule .wrap .text__title{
+    font-weight: bold;
+}
+footer .work_schedule .wrap .text__title img{
+    width: 14px;
+    transform: translateY(-1px);
+}
+
+footer .our_services{}
+footer .our_services .title{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+footer .our_services .service img{
+    width: 12px;
+    transform: translateY(-2px);
+}
+footer .our_services .service{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+footer .social{}
+footer .social .title{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+footer .social .row1{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 20px 0;
+}
+footer .social .row1 img{}
+footer .social .row2{
+}
+
+
+
+@media screen and (max-width: 1025px) {
+    footer{
+        padding: 40px 60px;
+    }
+}
+@media screen and (max-width: 769px) {
+    footer{
+        padding: 40px 60px;
+    }
+    footer .callback{order: 1}
+    footer .work_schedule{order: 3}
+    footer .call-center{order: 4}
+    footer .our_services{order: 2}
+    footer .social{order: 5}
+}
+@media screen and (max-width: 426px) {
+    footer .module{
+        width: 100%;
+    }
+    footer{
+        padding: 40px 20px;
+    }
+
+}
+@media screen and (max-width: 321px) {
+
+}

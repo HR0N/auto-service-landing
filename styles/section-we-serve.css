@@ -21,3 +21,24 @@
 }
 .section-we-serve .brands .item img{
 }
+
+
+@media screen and (max-width: 1025px) {
+
+}
+@media screen and (max-width: 769px) {
+
+}
+@media screen and (max-width: 426px) {
+    .section-we-serve .brands{
+        justify-content: center;
+    }
+    .section-we-serve .brands .item{
+        width: calc(50% - 40px);
+        padding: 10px 0;
+    }
+
+}
+@media screen and (max-width: 321px) {
+
+}
