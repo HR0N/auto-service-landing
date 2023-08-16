@@ -37,7 +37,7 @@
 
 
 .service-list .caption .chevron{
-    width: 16px;
+    font-size: 1.1em;
     transition: .2s;
     user-select: none;
 }
@@ -98,6 +98,9 @@
 
 }
 @media screen and (max-width: 426px) {
+    .section-price-services h2{
+        font-size: 2em;
+    }
 
 }
 @media screen and (max-width: 321px) {

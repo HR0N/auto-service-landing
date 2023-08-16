@@ -50,18 +50,8 @@
 }
 
 @media screen and (max-width: 376px) {
-    .section-map .section-map_wrap .callbackForm {
-        flex-direction: column;
-        padding: 60px 20px;
-    }
 
 }
 @media screen and (max-width: 321px) {
-    .section-map .section-map_wrap .callbackForm h2{
-        font-size: 1.4em;
-    }
-    .section-map .section-map_wrap .callbackForm input{
-        width: 256px;
-    }
 
 }

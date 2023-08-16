@@ -19,7 +19,11 @@
     color: #626262;
 }
 .section-FAQ .text{}
-.section-FAQ .icon{}
+.section-FAQ .icon{
+    transition: .3s;
+    font-size: 1.1em;
+    height: min-content;
+}
 .section-FAQ .icon img{
     width: 16px;
     transition: ease-in-out .3s;
@@ -37,7 +41,7 @@
     font-weight: 500;
     color: black;
 }
-.section-FAQ .faq-item.active img{
+.section-FAQ .faq-item.active .chevron{
     transform: rotate(90deg);
 }
 .section-FAQ .faq-item.active .faq-item__sub-item{

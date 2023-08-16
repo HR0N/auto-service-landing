@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="styles/section-we-serve.css">
     <link rel="stylesheet" href="styles/section-seo-content.css">
     <link rel="stylesheet" href="styles/section-faq.css">
+    <link rel="stylesheet" href="styles/ico_fonts.css">
 
     <title>Real Park</title>
 </head>
@@ -48,7 +49,7 @@
     <nav class="header-nav">
         <ul>
 <!--            <li><img src="img/icons/xmark-solid.svg"></li>-->
-            <li class="burgerButton"><img class="menu-icon" src="img/icons/bars-solid.svg"></li>
+            <li class="burgerButton icon-bars-solid"></li>
             <li><a href="#">Послуги</a></li>
             <li><a href="#">Автотовари</a></li>
             <li><a href="#">Автозапчастини</a></li>
@@ -64,9 +65,12 @@
         <h1>СТО в Києві - Real Park</h1>
         <div class="section-map_wrap">
             <div class="col1">
-                <div class="callbackForm">
+                <div class="callbackForm callbackForm1">
                     <h2>Запис / Консультація</h2>
-                    <label><input type="tel" placeholder="Введіть телефон"></label>
+                    <label>
+                        <input type="tel" placeholder="Введіть телефон">
+                        <button class="submit icon-arrow-right-solid"></button>
+                    </label>
                 </div>
             </div>
             <div class="col2">
@@ -120,7 +124,7 @@
                     <div class="service-list">
                         <div class="caption">
                             <div>Діагностика автомобіля</div>
-                            <div><img class="chevron" src="img/icons/chevron-down-solid.svg"></div>
+                            <div class="icon-chevron-down-solid chevron"></div>
                         </div>
                         <div class="sub-item">
                             <div class="service">Діагностика кондиціонера (візуальний огляд)</div>
@@ -135,7 +139,7 @@
                     <div class="service-list">
                         <div class="caption">
                             <div>Заміна технічних рідин та фільтрів</div>
-                            <div><img class="chevron" src="img/icons/chevron-down-solid.svg"></div>
+                            <div class="icon-chevron-down-solid chevron"></div>
                         </div>
                         <div class="sub-item">
                             <div class="service">Заміна оливи у двигуні</div>
@@ -154,7 +158,7 @@
                     <div class="service-list">
                         <div class="caption">
                             <div>Гальмівна система</div>
-                            <div><img class="chevron" src="img/icons/chevron-down-solid.svg"></div>
+                            <div class="icon-chevron-down-solid chevron"></div>
                         </div>
                         <div class="sub-item">
                             <div class="service">Заміна ремкомплекту гальмівного супорта 4 поршня</div>
@@ -169,7 +173,7 @@
                     <div class="service-list">
                         <div class="caption">
                             <div>Заміна технічних рідин та фільтрів</div>
-                            <div><img class="chevron" src="img/icons/chevron-down-solid.svg"></div>
+                            <div class="icon-chevron-down-solid chevron"></div>
                         </div>
                         <div class="sub-item">
                             <div class="service">Заміна оливи у двигуні</div>
@@ -188,9 +192,12 @@
                 </div>
             </div>
             <div class="col2">
-                <div class="callbackForm">
+                <div class="callbackForm callbackForm1">
                     <h2>Запис / Консультація</h2>
-                    <label><input type="tel" placeholder="Введіть телефон"></label>
+                    <label>
+                        <input type="tel" placeholder="Введіть телефон">
+                        <button class="submit icon-arrow-right-solid"></button>
+                    </label>
                 </div>
             </div>
         </div>
@@ -354,7 +361,7 @@
         <div class="faq-item">
             <div class="faq-item__title">
                 <div class="text">📌 Які послуги є на СТО?</div>
-                <div class="icon"><img class="chevron" src="img/icons/chevron-down-solid.svg"></div>
+                <div class="icon icon-chevron-down-solid chevron"></div>
             </div>
             <div class="faq-item__sub-item">На станціях технічного обслуговування Real Park наші професійні механіки
                 виконують велику кількість робіт. Серед них заміна акумулятора, антифризу, свічок, зчеплення,
@@ -366,7 +373,7 @@
         <div class="faq-item">
             <div class="faq-item__title">
                 <div class="text">📌 Чи є гарантії на роботи?</div>
-                <div class="icon"><img class="chevron" src="img/icons/chevron-down-solid.svg"></div>
+                <div class="icon icon-chevron-down-solid chevron"></div>
             </div>
             <div class="faq-item__sub-item">Ми надаємо гарантію на всі види робіт, що здійснюються на станціях
                 технічного обслуговування нашої компанії, а також на запасні частини, куплені в Oiler. Гарантія
@@ -377,7 +384,7 @@
         <div class="faq-item">
             <div class="faq-item__title">
                 <div class="text">📌 Чи можна перевірити автомобіль перед продажем/покупкою?</div>
-                <div class="icon"><img class="chevron" src="img/icons/chevron-down-solid.svg"></div>
+                <div class="icon icon-chevron-down-solid chevron"></div>
             </div>
             <div class="faq-item__sub-item">У нашій компанії є послуга з передпродажної діагностики транспортного
                 засобу. А саме перелік основних механізмів і вузлів, які перевіряють наші сервісмени. Завдяки цьому
@@ -388,7 +395,7 @@
         <div class="faq-item">
             <div class="faq-item__title">
                 <div class="text">📌 Коли можна приїхати на техобслуговування?</div>
-                <div class="icon"><img class="chevron" src="img/icons/chevron-down-solid.svg"></div>
+                <div class="icon icon-chevron-down-solid chevron"></div>
             </div>
             <div class="faq-item__sub-item">Ви можете записатися на відвідування станції технічного обслуговування
                 Real Park за кілька кліків мишкою на нашому сайті. Для цього натисніть зелену кнопку, розташовану на
@@ -405,9 +412,12 @@
 <footer>
 
     <div class="module callback">
-        <div class="callbackForm">
+        <div class="callbackForm callbackForm1">
             <h2>Запис / Консультація</h2>
-            <label><input type="tel" placeholder="Введіть телефон"></label>
+            <label>
+                <input type="tel" placeholder="Введіть телефон">
+                <button class="submit icon-arrow-right-solid"></button>
+            </label>
         </div>
     </div>
 
@@ -415,12 +425,12 @@
         <div class="title">Графік роботи</div>
         <div class="wrap">
             <div class="text service">
-                <div class="text__title"><img src="img/icons/car-solid.svg" alt=""> Автосервіс</div>
+                <div class="text__title icon-car-solid">&nbsp;Автосервіс</div>
                 <div>Пн - Пт: 08:00 — 19:00</div>
                 <div>Сб - Нд: 09:00 — 19:00</div>
             </div>
             <div class="text call-center">
-                <div class="text__title"><img src="img/icons/phone-solid.svg" alt=""> Кол-центр</div>
+                <div class="text__title icon-phone-solid">&nbsp;Кол-центр</div>
                 <div>Пн - Нд: 08:00 — 20:00</div>
             </div>
         </div>
@@ -428,9 +438,9 @@
 
     <div class="module our_services">
         <div class="title">Наші автосервіси:</div>
-        <div class="service"><img src="img/icons/location-dot-solid.svg" alt=""> Оболонь вул. Бережанська, 75</div>
-        <div class="service"><img src="img/icons/location-dot-solid.svg" alt=""> Відрадний пр-т. Відрадний, 18</div>
-        <div class="service"><img src="img/icons/location-dot-solid.svg" alt=""> Лук'янівка вул. Нагірна, 37</div>
+        <div class="service icon-location-dot-solid"> Оболонь вул. Бережанська, 75</div>
+        <div class="service icon-location-dot-solid"> Відрадний пр-т. Відрадний, 18</div>
+        <div class="service icon-location-dot-solid"> Лук'янівка вул. Нагірна, 37</div>
     </div>
 
     <div class="module social">
@@ -449,15 +459,18 @@
 
 </footer>
 
-<script src="jquery/jquery.js"></script>
+<script src="libs/jquery/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 <script src="js/father.js"></script>
 <script src="js/header.js"></script>
 <script src="js/services-list.js"></script>
 <script src="js/slider-settings.js"></script>
 <script src="js/faq.js"></script>
+<script src="js/callback_form.js"></script>
 <script>$(document).ready(() => { new Header('header') })</script>
 <script>$(document).ready(() => { new ServicesList('.section-price-services') })</script>
 <script>$(document).ready(() => { new Faq('.section-FAQ') })</script>
+<script>$(document).ready(() => { new Callback_form('.callbackForm1') })</script>
 
 <script src="libs/slider/slider.js"></script>
 <script>$(document).ready(() => { new SliderSettings('.slider') })</script>

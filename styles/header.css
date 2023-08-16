@@ -115,6 +115,9 @@ header{
     }
     .header-nav ul li img{
     }
+    .header-nav ul li.burgerButton{
+        font-size: 1.6em;
+    }
     .header-content{
         padding: 0 40px 0 0;
     }

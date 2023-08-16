@@ -13,10 +13,12 @@ class Header extends father{
     mobileMenuToggle(){
         this.mobileMenuShow = !this.mobileMenuShow;
         if(this.mobileMenuShow){
-            this.burgerButton.find('img').attr('src', 'img/icons/xmark-solid.svg');
+            this.burgerButton.removeClass('icon-bars-solid');
+            this.burgerButton.addClass('icon-xmark-solid');
             this.nav.parent().addClass('show');
         }else{
-            this.burgerButton.find('img').attr('src', 'img/icons/bars-solid.svg');
+            this.burgerButton.addClass('icon-bars-solid');
+            this.burgerButton.removeClass('icon-xmark-solid');
             this.nav.parent().removeClass('show');
         }
     }

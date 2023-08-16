@@ -39,14 +39,21 @@ footer .work_schedule .wrap{
 footer .work_schedule .wrap .text{
 }
 footer .work_schedule .wrap .text__title{
+    display: flex;
+    align-items: center;
     font-weight: bold;
+    margin-bottom: 6px;
 }
 footer .work_schedule .wrap .text__title img{
     width: 14px;
     transform: translateY(-1px);
 }
 
-footer .our_services{}
+footer .our_services{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
 footer .our_services .title{
     font-size: 1.3em;
     font-weight: bold;
@@ -74,6 +81,8 @@ footer .social .row1{
 }
 footer .social .row1 img{}
 footer .social .row2{
+    display: flex;
+    gap: 20px;
 }
 
 
