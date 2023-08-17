@@ -30,6 +30,9 @@
 
 }
 @media screen and (max-width: 426px) {
+    .section-we-serve .title{
+        font-size: 2em;
+    }
     .section-we-serve .brands{
         justify-content: center;
     }
