@@ -469,7 +469,7 @@
     </div>
 
     <div class="module social">
-        <div class="title">Автосервіс Real Car Service в соцмережах</div>
+        <div class="title">Real Car Service в соцмережах</div>
         <div class="row1">
             <a href="#"><img src="img/icons/youtube.svg" alt="" title="youtube"></a>
             <a href="#"><img src="img/icons/instagram.svg" alt="" title="instagram"></a>

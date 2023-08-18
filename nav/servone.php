@@ -129,16 +129,16 @@
     </div>
 
     <div class="module social">
-        <div class="title">Автосервіс Real Car Service в соцмережах</div>
+        <div class="title">Real Car Service в соцмережах</div>
         <div class="row1">
-            <a href="#"><img src="img/icons/youtube.svg" alt="" title="youtube"></a>
-            <a href="#"><img src="img/icons/instagram.svg" alt="" title="instagram"></a>
-            <a href="#"><img src="img/icons/facebook.svg" alt="" title="facebook"></a>
-            <a href="#"><img src="img/icons/twitter.svg" alt="" title="twitter"></a>
+            <a href="#"><img src="../img/icons/youtube.svg" alt="" title="youtube"></a>
+            <a href="#"><img src="../img/icons/instagram.svg" alt="" title="instagram"></a>
+            <a href="#"><img src="../img/icons/facebook.svg" alt="" title="facebook"></a>
+            <a href="#"><img src="../img/icons/twitter.svg" alt="" title="twitter"></a>
         </div>
         <div class="row2">
-            <img src="img/icons/visa.png" alt="" title="visa">
-            <img src="img/icons/mastercard.png" alt="" title="mastercard">
+            <img src="../img/icons/visa.png" alt="" title="visa">
+            <img src="../img/icons/mastercard.png" alt="" title="mastercard">
         </div>
     </div>
 
