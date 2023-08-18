@@ -5,6 +5,10 @@ footer{
     gap: 40px;
     background-color: var(--main-green);
     padding: 60px 160px;
+    background-image: url("/img/spot2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 footer .module{
@@ -101,6 +105,10 @@ footer .social .row2{
     footer .call-center{order: 4}
     footer .our_services{order: 2}
     footer .social{order: 5}
+
+    footer{
+        background-size: auto;
+    }
 }
 @media screen and (max-width: 426px) {
     footer .module{
@@ -112,5 +120,8 @@ footer .social .row2{
 
 }
 @media screen and (max-width: 321px) {
+    footer{
+        background-size: cover;
+    }
 
 }
