@@ -94,7 +94,7 @@
                 </div>
                 <div class="col2">
                     <a href="nav/servone.php" class="navigator">ЯК ДОЇХАТИ?</a>
-                    <div class="picture"><img src="https://oiler.pro/media/oiler/carservices/5_.png" alt=""></div>
+                    <div class="picture"><img src="img/other_images/service_1b.webp" alt=""></div>
                 </div>
             </div>
 
@@ -105,7 +105,7 @@
                 </div>
                 <div class="col2">
                     <a href="nav/servone.php" class="navigator">ЯК ДОЇХАТИ?</a>
-                    <div class="picture"><img src="https://oiler.pro/media/oiler/carservices/5_.png" alt=""></div>
+                    <div class="picture"><img src="img/other_images/service_2b.webp" alt=""></div>
                 </div>
             </div>
 
@@ -125,18 +125,39 @@
 
                     <div class="service-list">
                         <div class="caption">
-                            <div>Діагностика автомобіля</div>
+                            <div>Діагностика</div>
                             <div class="icon-chevron-down-solid chevron"></div>
                         </div>
                         <div class="sub-item">
-                            <div class="service">Діагностика кондиціонера (візуальний огляд)</div>
-                            <div class="price">388</div>
+                            <div class="service">Огляд електрообладнання</div>
+                            <div class="price">300</div>
                         </div>
                         <div class="sub-item">
-                            <div class="service">Діагностика системи електроживлення автомобіля</div>
-                            <div class="price">148</div>
+                            <div class="service">Комплексна дігностика (ходова частина, гальмівна система, двигун, підтікання)</div>
+                            <div class="price">300</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Комплексна дігностика (ходова частина, гальмівна система, двигун, підтікання)</div>
+                            <div class="price">300</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Компьютерна діагностика</div>
+                            <div class="price">300</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Перевірка АКБ</div>
+                            <div class="price">100</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Ендоскопія бензинового двигуна від</div>
+                            <div class="price">1200</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Перевірка лакофарбового покриття</div>
+                            <div class="price">400</div>
                         </div>
                     </div>
+
 
                     <div class="service-list">
                         <div class="caption">
@@ -144,18 +165,87 @@
                             <div class="icon-chevron-down-solid chevron"></div>
                         </div>
                         <div class="sub-item">
-                            <div class="service">Заміна оливи у двигуні</div>
-                            <div class="price">598</div>
+                            <div class="service">Заміна оливи двигуна від</div>
+                            <div class="price">300</div>
                         </div>
                         <div class="sub-item">
-                            <div class="service">Змащення 1 хрестовини карданного валу</div>
-                            <div class="price">1798</div>
+                            <div class="service">Заміна фільтра повітря від</div>
+                            <div class="price">100</div>
                         </div>
                         <div class="sub-item">
-                            <div class="service">Часткова заміна рідини в АКПП із заміною фільтра АКПП</div>
-                            <div class="price">198</div>
+                            <div class="service">Заміна фільтра салону у бардачку від</div>
+                            <div class="price">100</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна фільтра салону за педальним вузлом від</div>
+                            <div class="price">250</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна паливного фільтра підвісного від</div>
+                            <div class="price">200</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна занурюваного паливного фільтра (без зняття бака)</div>
+                            <div class="price">1000</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна занурюваного паливного фільтра (з зняттям бака) від</div>
+                            <div class="price">2500</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна паливного фільтра дизельного двигуна від</div>
+                            <div class="price">400</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна оливи механічної КПП (МКПП) від</div>
+                            <div class="price">300</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Часткова заміна оливи в АКПП (без заміни фільтра АКПП) від</div>
+                            <div class="price">400</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Часткова заміна оливи в АКПП (з заміною фільтра АКПП) від</div>
+                            <div class="price">1000</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Повна заміна оливи в АКПП (без заміни фільтра АКПП) від</div>
+                            <div class="price">1200</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Повна заміна оливи в АКПП (з заміною фільтра АКПП) від</div>
+                            <div class="price">1600</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна оливи в роздавальній коробці від</div>
+                            <div class="price">400</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна оливи в редукторі моста від</div>
+                            <div class="price">400</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна оливи ГУР від</div>
+                            <div class="price">400</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна оливи ГУР з промиванням системи ГУР від</div>
+                            <div class="price">600</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна охолоджуючої рідини від</div>
+                            <div class="price">500</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна охолоджуючої рідини з промиванням системи охлодження від</div>
+                            <div class="price">1200</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Змащування хрестовини карданного валу від</div>
+                            <div class="price">300</div>
                         </div>
                     </div>
+
 
                     <div class="service-list">
                         <div class="caption">
@@ -163,33 +253,356 @@
                             <div class="icon-chevron-down-solid chevron"></div>
                         </div>
                         <div class="sub-item">
-                            <div class="service">Заміна ремкомплекту гальмівного супорта 4 поршня</div>
-                            <div class="price">1698</div>
+                            <div class="service">Заміна гальмівних дисків та колодок за вісь від</div>
+                            <div class="price">500</div>
                         </div>
                         <div class="sub-item">
-                            <div class="service">Перевірка биття задніх гальмівних дисків</div>
-                            <div class="price">588</div>
+                            <div class="service">Заміна гальмівних колодок дискових</div>
+                            <div class="price">300</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна гальмівних колодок барабанних від</div>
+                            <div class="price">800</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна гальмівних барабанів (пара)</div>
+                            <div class="price">600</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна троса ручного гальма (одна сторона) від</div>
+                            <div class="price">500</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна гальмівного супорта від</div>
+                            <div class="price">400</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна ремкомплекта альмівного супорта (на знятуму супорті) від</div>
+                            <div class="price">400</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна головного гальмівного циліндра від</div>
+                            <div class="price">600</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна вакуумного підсилювача гальм від</div>
+                            <div class="price">1200</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна робочого гальмівного циліндра від</div>
+                            <div class="price">400</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна гальмівного шланга від</div>
+                            <div class="price">300</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна гальмівнї рідини від</div>
+                            <div class="price">500</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна гальмівних колодок задніх дискових з ел. приводом ручного гальма
+                                (комплект)</div>
+                            <div class="price">1000</div>
                         </div>
                     </div>
 
+
                     <div class="service-list">
                         <div class="caption">
-                            <div>Заміна технічних рідин та фільтрів</div>
+                            <div>Рульове керування</div>
                             <div class="icon-chevron-down-solid chevron"></div>
                         </div>
                         <div class="sub-item">
-                            <div class="service">Заміна оливи у двигуні</div>
-                            <div class="price">598</div>
+                            <div class="service">Заміна кермового накінечника від</div>
+                            <div class="price">300</div>
                         </div>
                         <div class="sub-item">
-                            <div class="service">Змащення 1 хрестовини карданного валу</div>
-                            <div class="price">1798</div>
+                            <div class="service">Заміна кермової тяги від</div>
+                            <div class="price">300</div>
                         </div>
                         <div class="sub-item">
-                            <div class="service">Часткова заміна рідини в АКПП із заміною фільтра АКПП</div>
-                            <div class="price">198</div>
+                            <div class="service">Заміна насоса гідропідсилювача від</div>
+                            <div class="price">800</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна пильовика рульової рейки від</div>
+                            <div class="price">300</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Демонтаж/монтаж рульової рейки</div>
+                            <div class="price">2200</div>
                         </div>
                     </div>
+
+
+                    <div class="service-list">
+                        <div class="caption">
+                            <div>Ходова частина</div>
+                            <div class="icon-chevron-down-solid chevron"></div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна втулки стабілізатора (одніеї) від</div>
+                            <div class="price">200</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна втулок стабілізатора зі зняттям підрамника (2 шт.) від</div>
+                            <div class="price">1200</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна стійки стабілізатора (одніеї) від</div>
+                            <div class="price">200</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна сайлентблоків важеля від</div>
+                            <div class="price">700</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна сайлентблока балки від</div>
+                            <div class="price">900</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна сайлентблока підрамника від</div>
+                            <div class="price">2000</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна хрестовини карданного валу (знятий кардан) від</div>
+                            <div class="price">500</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна підвісного підшипника карданного валу (знятий кардан) від</div>
+                            <div class="price">1000</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна поздожнього важіля від</div>
+                            <div class="price">600</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна сайлентблоків важеля поздовжнього від</div>
+                            <div class="price">700</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна кульової опори (кріп. болти або заклепки) від</div>
+                            <div class="price">300</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна кульової опори (запресована) від</div>
+                            <div class="price">700</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна важіля від</div>
+                            <div class="price">600</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Зіміна амортизаторів макферсон (пара) від</div>
+                            <div class="price">1400</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна телескопічних амортизаторів (пара) від</div>
+                            <div class="price">700</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна ШРКШ (граната) від</div>
+                            <div class="price">600</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна опори двигуна верхньої від</div>
+                            <div class="price">400</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна опори двигуна внижньої від</div>
+                            <div class="price">200</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна сальника напіввісі від</div>
+                            <div class="price">700</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Зняття-встановлення підрамника від</div>
+                            <div class="price">1800</div>
+                        </div>
+                    </div>
+
+
+                    <div class="service-list">
+                        <div class="caption">
+                            <div>Паливна система</div>
+                            <div class="icon-chevron-down-solid chevron"></div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Вимірювання тиску паливного насоса від</div>
+                            <div class="price">500</div>
+                        </div>
+                    </div>
+
+
+                    <div class="service-list">
+                        <div class="caption">
+                            <div>Трансмісія</div>
+                            <div class="icon-chevron-down-solid chevron"></div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна комплекту зчеплення без зняття підрамника від</div>
+                            <div class="price">3500</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна комплекту зчеплення із зняттям підрамника від</div>
+                            <div class="price">5000</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна комплекту зчеплення (повний привід) від</div>
+                            <div class="price">7000</div>
+                        </div>
+                    </div>
+
+
+                    <div class="service-list">
+                        <div class="caption">
+                            <div>ГРМ</div>
+                            <div class="icon-chevron-down-solid chevron"></div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна комплекту ГРМ бензинового двигуна від</div>
+                            <div class="price">3500</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна комплекту ГРМ дизельного двигуна від</div>
+                            <div class="price">4000</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна комплекту ланцюга ГРМ від</div>
+                            <div class="price">5500</div>
+                        </div>
+                    </div>
+
+
+                    <div class="service-list">
+                        <div class="caption">
+                            <div>Двигун</div>
+                            <div class="icon-chevron-down-solid chevron"></div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Вимір компрессії бензинового двигуна (1 циліндр) без зняття колектора від</div>
+                            <div class="price">150</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Вимір компресії дизельного двигуна (1 циліндр) без зняття колектора від</div>
+                            <div class="price">400</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Регулювання клапанів (тільки щупом) від</div>
+                            <div class="price">1500</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна прокладання клапанної кришки (без зняття колектора) від</div>
+                            <div class="price">600</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна прокладання клапанної кришки (зі зняттям колектора) від</div>
+                            <div class="price">1800</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна прокладання впускного колектора від</div>
+                            <div class="price">1500</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна прокладки випускного колектора від</div>
+                            <div class="price">1500</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Зняття-встановлення турбіни від</div>
+                            <div class="price">3500</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна шківа колінвала від</div>
+                            <div class="price">600</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна заднього сальника колінвалу від</div>
+                            <div class="price">3500</div>
+                        </div>
+                    </div>
+
+
+                    <div class="service-list">
+                        <div class="caption">
+                            <div>Система охолодження</div>
+                            <div class="icon-chevron-down-solid chevron"></div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна радіатора системи охолодження від</div>
+                            <div class="price">1000</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна термостату від</div>
+                            <div class="price">700</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна термостату з корпусом у зборі від</div>
+                            <div class="price">700</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна помпи системи охолодження (без зняття ременя ГРМ) від</div>
+                            <div class="price">1200</div>
+                        </div>
+                    </div>
+
+
+                    <div class="service-list">
+                        <div class="caption">
+                            <div>Система випуску ВГ</div>
+                            <div class="icon-chevron-down-solid chevron"></div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна глушника на хомутах від</div>
+                            <div class="price">500</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна резонатора на хомутах від</div>
+                            <div class="price">500</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Зварювальні роботи (година) від</div>
+                            <div class="price">600</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна каталізатора від</div>
+                            <div class="price">600</div>
+                        </div>
+                    </div>
+
+
+                    <div class="service-list">
+                        <div class="caption">
+                            <div>Шиномонтаж</div>
+                            <div class="icon-chevron-down-solid chevron"></div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Шиномонтаж від</div>
+                            <div class="price">600</div>
+                        </div>
+                    </div>
+
+
+                    <div class="service-list">
+                        <div class="caption">
+                            <div>Акумулятори</div>
+                            <div class="icon-chevron-down-solid chevron"></div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна акумулятора (під капотом) від</div>
+                            <div class="price">100</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Заміна акумулятора (під сидінням) від</div>
+                            <div class="price">200</div>
+                        </div>
+                        <div class="sub-item">
+                            <div class="service">Зарядка акумулятора від</div>
+                            <div class="price">100</div>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
@@ -295,7 +708,7 @@
                 необхідні глибокі знання та велика відповідальність. Саме ці аспекти є основною опорою в даному
                 контексті. Багато автосервісів у Києві надають послуги з відновлення автотранспорту, але довіритися
                 можна лише окремим експертам.</p>
-            <p class="picture"><img src="https://media.istockphoto.com/id/175407605/photo/industrial-warehouse-building.jpg?s=612x612&w=0&k=20&c=ztmz-gOoDCdsqC6vcYWeiugjneCbOV9xbi0oxF9bIGg=" alt=""></p>
+            <p class="picture"><img src="img/other_images/seo1b.webp" alt=""></p>
             <p>Плануйте заздалегідь профілактику та ремонт автотранспорту, щоб уникнути непередбачуваних ситуацій.
                 Вчасна підготовка дозволить уникнути неприємних несподіванок, пов'язаних з раптовими поломками.
                 При виборі автосервісу ретельно перевірте його компетентність, ознайомтеся з прайс-листом на послуги,
@@ -314,7 +727,7 @@
                 сюрпризів для наших клієнтів. Кожна послуга має чітко визначену вартість, яку готовий розкрити
                 персональний менеджер нашого сервісу. Докладний прайс-лист на ремонт автотранспорту доступний на
                 нашому веб-сайті, а також за номером, де Ви можете отримати консультацію від менеджера.</p>
-            <p class="picture"><img src="https://www.insta.ge/wp-content/uploads/2019/09/IMG_2633.jpg" alt=""></p>
+            <p class="picture"><img src="img/other_images/seo2b.webp" alt=""></p>
             <p>Ми глибоко розуміємо, що автосервіс повинен створити комфортні умови для наших клієнтів при користуванні
                 транспортним засобом. Саме тому ми розробили і підтримуємо веб-сайт нашої сервісної станції, який
                 дозволяє легко ознайомитися зі списком послуг та їх вартістю, знаходити всі наші локації на мапі, а
@@ -328,7 +741,7 @@
                 <li>Деснянський;</li>
                 <li>Софіївська Борщагівка;</li>
             </ul>
-            <p class="picture"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5HXpvPXqf-nLcVX2ZVvO-CRIgeZJNXlbGGQ&usqp=CAU" alt=""></p>
+            <p class="picture"><img src="img/other_images/seo3b.webp" alt=""></p>
             <p>Ми надаємо можливість доставки деталей безпосередньо на робочу зону автосервісу, забезпечуючи швидку та
                 якісну заміну. Кожна придбана в нас деталь супроводжується власною гарантією, що забезпечує вам
                 спокійний ремонт. Рішення щодо гарантійних питань на СТО Оилер приймається у термін до 15 хвилин,
@@ -338,12 +751,12 @@
                 себе, бути корисними суспільству та виконувати свою роботу, допомагаючи іншим. Таким чином, ми
                 відрізняємося від інших автосервісів у Києві, які пріоритетно мають на меті лише наживу будь-якими
                 доступними способами.</p>
-            <p class="picture"><img src="https://i.pinimg.com/550x/09/e6/77/09e677099af1cafcd57b308800b94a6c.jpg" alt=""></p>
+            <p class="picture"><img src="img/other_images/seo4b.webp" alt=""></p>
             <p>Для проведення капітального ремонту автомобіля на нашій автосервісній станції, особливо після ДТП,
                 вирішальну роль відіграє професійний технічний підхід. Впоратися з цим завданням вдалося не просто
                 завдяки відмінному ставленню та досвіду, але й завдяки постійному оновленню нашого технічного оснащення.
                 Ми ретельно відбираємо необхідні технічні інструменти, щоб покращити якість та ефективність нашої
-                роботи. На сьогоднішній день усі філії мережі Oiler обладнані надійними підйомниками, професійним
+                роботи. На сьогоднішній день усі філії мережі RCS обладнані надійними підйомниками, професійним
                 інструментом, точними стендами для налаштування і сучасними приладами діагностики. Вартість наших
                 послуг залишається доступною для всіх категорій автомобілів.</p>
 
@@ -360,7 +773,7 @@
                 однією з країнокамінь нашої компанії, яка надає послуги ремонту та обслуговування автомобілів.
                 Прайс-лист на ремонт авто та вартість послуг автосервісу завжди доступні на верхній частині цієї
                 сторінки.</p>
-            <p class="picture"><img src="https://img.freepik.com/premium-photo/car-repair-service-centre-interior-blurred-background_293060-9792.jpg" alt=""></p>
+            <p class="picture"><img src="img/other_images/seo5b.webp" alt=""></p>
             <p>Ми розкриваємо перед вами всі картки. Наш прайс-лист на послуги автосервісу складений так, що клієнт
                 заздалегідь знає точну суму ремонту перед початком робіт. Це — унікальна можливість, якою ми гордимось,
                 і яку не можуть запропонувати багато інших технічних обслуговувань автомобілів.
