@@ -1,6 +1,19 @@
 .section-map{
 
 }
+.section-map .phone{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.section-map .phone .title{}
+.section-map .phone .number{
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+.section-map .phone .number i{
+    transform: translateY(12px);
+    color: var(--main-green);
+}
 
 .section-map .section-map_wrap{
     display: flex;
@@ -53,5 +66,8 @@
 
 }
 @media screen and (max-width: 321px) {
+    .section-map .phone .number{
+        font-size: 1.6em;
+    }
 
 }

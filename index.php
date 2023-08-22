@@ -6,6 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="format-detection" content="telephone=no">
+    <!--<meta name="title" content="СТО в Києві, Ремонт автомобіля за доступними цінами в Автосервісі Real Car Service">-->
+    <!--<meta name="description" content="☎ (096) 697 77 88 ➤ СТО в Києві: діагностика, ремонт машин за кращими цінами ➤ Автосервіс Real Car Service пропонує ремонт, обслуговування автомобілів та інші послуги СТО з гарантією">-->
+    <!--<meta name="robots" content="INDEX,FOLLOW">-->
 
     <!--    Bootstrap   -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -32,14 +35,14 @@
     <link rel="stylesheet" href="styles/ico_fonts.css">
     <link rel="stylesheet" href="styles/callback_modal_window.css">
 
-    <title>Real Car Service</title>
+    <title>СТО в Києві, Ремонт автомобіля за доступними цінами в Автосервісі Real Car Service</title>
 </head>
 <body>
 
 
 <header>
     <div class="header-content">
-        <a class="logo" href="/"><img src="img/logo/header-img.png"></a>
+        <a class="logo" href="/"><img src="img/logo/header-img.png" alt="car-service"></a>
         <div class="text-content">
             <div class="row1">Якість та довіра</div>
             <div class="row2">на кожному кілометрі !</div>
@@ -65,6 +68,10 @@
 
     <section class="section section-map">
         <h1>СТО в Києві - Real Car Service</h1>
+        <div class="phone">
+            <div class="title">Дзвони і ми відремонтуємо ваш автомобіль!</div>
+            <div class="number"><i class="icon-phone-solid"></i> +38 (096) 697 77 88</div>
+        </div>
         <div class="section-map_wrap">
             <div class="col1">
                 <div class="callbackForm callbackForm1">
@@ -94,18 +101,18 @@
                 </div>
                 <div class="col2">
                     <a href="nav/servone.php" class="navigator">ЯК ДОЇХАТИ?</a>
-                    <div class="picture"><img src="img/other_images/service_1b.webp" alt=""></div>
+                    <div class="picture"><img src="img/other_images/service_1b.webp" alt="car-service"></div>
                 </div>
             </div>
 
             <div class="service">
                 <div class="col1">
                     <div class="title">Real Car Service правий берег</div>
-                    <div class="address">вул. Клеманська, 1/5<br/>Печерський р-н</div>
+                    <div class="address">вул. Шкільна, 36<br/>Михайлівка-Рубежівка</div>
                 </div>
                 <div class="col2">
-                    <a href="nav/servone.php" class="navigator">ЯК ДОЇХАТИ?</a>
-                    <div class="picture"><img src="img/other_images/service_2b.webp" alt=""></div>
+                    <a href="nav/servtwo.php" class="navigator">ЯК ДОЇХАТИ?</a>
+                    <div class="picture"><img src="img/other_images/service_2b.webp" alt="car-service"></div>
                 </div>
             </div>
 
@@ -636,9 +643,9 @@
             </div>
         </div>
         <div class="slider">
-            <div class="slider__item"><img src="img/slider_images/1.webp" alt=""></div>
-            <div class="slider__item"><img src="img/slider_images/2.webp" alt=""></div>
-            <div class="slider__item"><img src="img/slider_images/3.webp" alt=""></div>
+            <div class="slider__item"><img src="img/slider_images/1.webp"></div>
+            <div class="slider__item"><img src="img/slider_images/2.webp"></div>
+            <div class="slider__item"><img src="img/slider_images/3.webp"></div>
         </div>
     </section>
 
@@ -648,19 +655,19 @@
         <div class="title2">Зручна та зрозуміла схема, що дозволяє звести вашу участь до мінімуму</div>
         <div class="our-scheme__list">
             <div class="our-scheme__item">
-                <img src="img/icons/s1.png" alt="">
+                <img src="img/icons/s1.png">
                 <div class="description">1. Запишіться в 1 клік через форму на сайті</div>
             </div>
             <div class="our-scheme__item">
-                <img src="img/icons/s2.png" alt="">
+                <img src="img/icons/s2.png">
                 <div class="description">2. Протягом 5 хв зателефонує менеджер, підбере зручну станцію та час для робіт</div>
             </div>
             <div class="our-scheme__item">
-                <img src="img/icons/s3.png" alt="">
+                <img src="img/icons/s3.png">
                 <div class="description">3. Ви отримуєте якісно виконану роботу і гарантію</div>
             </div>
             <div class="our-scheme__item">
-                <img src="img/icons/s4.png" alt="">
+                <img src="img/icons/s4.png">
                 <div class="description">4. Ви задоволені та залишаєте нам гарний відгук</div>
             </div>
         </div>
@@ -671,28 +678,28 @@
         <div class="title">Ми обслуговуємо</div>
         <div class="brands">
             <div class="item">
-                <img src="img/car_brands/hyundai.png" alt="">
+                <img src="img/car_brands/hyundai.png" alt="СТО для Hyundai">
             </div>
             <div class="item">
-                <img src="img/car_brands/kia.png" alt="">
+                <img src="img/car_brands/kia.png" alt="СТО для KIA">
             </div>
             <div class="item">
-                <img src="img/car_brands/mazda.png" alt="">
+                <img src="img/car_brands/mazda.png" alt="СТО для Mazda">
             </div>
             <div class="item">
-                <img src="img/car_brands/renault.png" alt="">
+                <img src="img/car_brands/renault.png" alt="СТО для Renault">
             </div>
             <div class="item">
-                <img src="img/car_brands/skoda.png" alt="">
+                <img src="img/car_brands/skoda.png" alt="СТО для Skoda">
             </div>
             <div class="item">
-                <img src="img/car_brands/ssangyong.png" alt="">
+                <img src="img/car_brands/ssangyong.png" alt="СТО для SsangYong">
             </div>
             <div class="item">
-                <img src="img/car_brands/toyota.png" alt="">
+                <img src="img/car_brands/toyota.png" alt="СТО для Toyota">
             </div>
             <div class="item">
-                <img src="img/car_brands/volkswagen.png" alt="">
+                <img src="img/car_brands/volkswagen.png" alt="СТО для Volkswagen">
             </div>
         </div>
     </section>
@@ -708,7 +715,7 @@
                 необхідні глибокі знання та велика відповідальність. Саме ці аспекти є основною опорою в даному
                 контексті. Багато автосервісів у Києві надають послуги з відновлення автотранспорту, але довіритися
                 можна лише окремим експертам.</p>
-            <p class="picture"><img src="img/other_images/seo1b.webp" alt=""></p>
+            <p class="picture"><img src="img/other_images/seo1b.webp" <!--alt="СТО У КИЄВІ - RCS фото 1"-->></p>
             <p>Плануйте заздалегідь профілактику та ремонт автотранспорту, щоб уникнути непередбачуваних ситуацій.
                 Вчасна підготовка дозволить уникнути неприємних несподіванок, пов'язаних з раптовими поломками.
                 При виборі автосервісу ретельно перевірте його компетентність, ознайомтеся з прайс-листом на послуги,
@@ -727,7 +734,7 @@
                 сюрпризів для наших клієнтів. Кожна послуга має чітко визначену вартість, яку готовий розкрити
                 персональний менеджер нашого сервісу. Докладний прайс-лист на ремонт автотранспорту доступний на
                 нашому веб-сайті, а також за номером, де Ви можете отримати консультацію від менеджера.</p>
-            <p class="picture"><img src="img/other_images/seo2b.webp" alt=""></p>
+            <p class="picture"><img src="img/other_images/seo2b.webp" <!--alt="СТО У КИЄВІ - RCS фото 2"-->></p>
             <p>Ми глибоко розуміємо, що автосервіс повинен створити комфортні умови для наших клієнтів при користуванні
                 транспортним засобом. Саме тому ми розробили і підтримуємо веб-сайт нашої сервісної станції, який
                 дозволяє легко ознайомитися зі списком послуг та їх вартістю, знаходити всі наші локації на мапі, а
@@ -741,7 +748,7 @@
                 <li>Деснянський;</li>
                 <li>Софіївська Борщагівка;</li>
             </ul>
-            <p class="picture"><img src="img/other_images/seo3b.webp" alt=""></p>
+            <p class="picture"><img src="img/other_images/seo3b.webp" <!--alt="СТО У КИЄВІ - RCS фото 3"-->></p>
             <p>Ми надаємо можливість доставки деталей безпосередньо на робочу зону автосервісу, забезпечуючи швидку та
                 якісну заміну. Кожна придбана в нас деталь супроводжується власною гарантією, що забезпечує вам
                 спокійний ремонт. Рішення щодо гарантійних питань на СТО Оилер приймається у термін до 15 хвилин,
@@ -751,7 +758,7 @@
                 себе, бути корисними суспільству та виконувати свою роботу, допомагаючи іншим. Таким чином, ми
                 відрізняємося від інших автосервісів у Києві, які пріоритетно мають на меті лише наживу будь-якими
                 доступними способами.</p>
-            <p class="picture"><img src="img/other_images/seo4b.webp" alt=""></p>
+            <p class="picture"><img src="img/other_images/seo4b.webp" <!--alt="СТО У КИЄВІ - RCS фото 4"-->></p>
             <p>Для проведення капітального ремонту автомобіля на нашій автосервісній станції, особливо після ДТП,
                 вирішальну роль відіграє професійний технічний підхід. Впоратися з цим завданням вдалося не просто
                 завдяки відмінному ставленню та досвіду, але й завдяки постійному оновленню нашого технічного оснащення.
@@ -773,7 +780,7 @@
                 однією з країнокамінь нашої компанії, яка надає послуги ремонту та обслуговування автомобілів.
                 Прайс-лист на ремонт авто та вартість послуг автосервісу завжди доступні на верхній частині цієї
                 сторінки.</p>
-            <p class="picture"><img src="img/other_images/seo5b.webp" alt=""></p>
+            <p class="picture"><img src="img/other_images/seo5b.webp" <!--alt="СТО У КИЄВІ - RCS фото 5"-->></p>
             <p>Ми розкриваємо перед вами всі картки. Наш прайс-лист на послуги автосервісу складений так, що клієнт
                 заздалегідь знає точну суму ремонту перед початком робіт. Це — унікальна можливість, якою ми гордимось,
                 і яку не можуть запропонувати багато інших технічних обслуговувань автомобілів.
@@ -876,22 +883,21 @@
 
     <div class="module our_services">
         <div class="title">Наші автосервіси:</div>
-        <div class="service icon-location-dot-solid"> Оболонь вул. Бережанська, 75</div>
-        <div class="service icon-location-dot-solid"> Відрадний пр-т. Відрадний, 18</div>
-        <div class="service icon-location-dot-solid"> Лук'янівка вул. Нагірна, 37</div>
+        <div class="service icon-location-dot-solid"> вул. Клеманська, 1/5</div>
+        <div class="service icon-location-dot-solid"> вул. Шкільна, 36, Михайлівка-Рубежівка</div>
     </div>
 
     <div class="module social">
         <div class="title">Real Car Service в соцмережах</div>
         <div class="row1">
-            <a href="#"><img src="img/icons/youtube.svg" alt="" title="youtube"></a>
-            <a href="#"><img src="img/icons/instagram.svg" alt="" title="instagram"></a>
-            <a href="#"><img src="img/icons/facebook.svg" alt="" title="facebook"></a>
-            <a href="#"><img src="img/icons/twitter.svg" alt="" title="twitter"></a>
+            <a href="#"><img src="img/icons/youtube.svg" title="youtube"></a>
+            <a href="#"><img src="img/icons/instagram.svg" title="instagram"></a>
+            <a href="#"><img src="img/icons/facebook.svg" title="facebook"></a>
+            <a href="#"><img src="img/icons/twitter.svg" title="twitter"></a>
         </div>
         <div class="row2">
-            <img src="img/icons/visa.png" alt="" title="visa">
-            <img src="img/icons/mastercard.png" alt="" title="mastercard">
+            <img src="img/icons/visa.png" alt="visa" title="visa">
+            <img src="img/icons/mastercard.png" alt="mastercard" title="mastercard">
         </div>
     </div>
 

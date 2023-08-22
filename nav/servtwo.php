@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../styles/callback_modal_window.css">
     <link rel="stylesheet" href="../styles/section-navigation.css">
 
-    <title>Лівий берег</title>
+    <title>Правий берег</title>
 </head>
 <body>
 
@@ -46,11 +46,11 @@
 
     <div class="col1">
         <div class="address">
-            <div class="address_title">СТО Дарницький</div>
-            <div class="street">вул. Клеманська, 1/5</div>
+            <div class="address_title">СТО Правий берег</div>
+            <div class="street">вул. Шкільна, 36, Михайлівка-Рубежівка</div>
             <div class="phone">
                 <div class="title">НОМЕР ТЕЛЕФОНУ</div>
-                <div class="number"><i class="icon-phone-solid"></i> +38 (096) 697 77 88</div>
+                <div class="number"><i class="icon-phone-solid"></i> +38 (093) 834 27 09</div>
             </div>
         </div>
 
@@ -81,13 +81,13 @@
         <div class="nav">
             <div class="title">Прокласти маршрут</div>
             <div class="navs_btn">
-                <a target="_blank" href="https://www.google.com.ua/maps/place/%D1%83%D0%BB.+%D0%9A%D0%BB%D0%B5%D0%BC%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F,+1%2F5,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4142659,30.5976853,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4c59c768f515b:0x277891fb81f72b7e!8m2!3d50.4142625!4d30.6002602!16s%2Fg%2F1vd74f5g?entry=ttu" class="nav_btn google">GOOGLE MAPS</a>
-                <a target="_blank" href="https://www.waze.com/ru/live-map/directions/ua/misto-kiyiv/kiyiv/vulicya-klemans%D1%8Cka,-15?navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location&to=place.ChIJW1GPdpzF1EARfiv3gfuReCc" class="nav_btn waze">WAZE</a>
+                <a target="_blank" href="https://goo.gl/maps/7LCN3yftcUvht9RK8" class="nav_btn google">GOOGLE MAPS</a>
+                <a target="_blank" href="https://ul.waze.com/ul?ll=50.51833704%2C30.13246179&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" class="nav_btn waze">WAZE</a>
             </div>
         </div>
         <div class="map">
             <div class="title">Мапа</div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2542.44039627716!2d30.59768527615012!3d50.41426588996906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c59c768f515b%3A0x277891fb81f72b7e!2z0YPQuy4g0JrQu9C10LzQsNC90YHQutCw0Y8sIDEvNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1691751008981!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1163.1654404056833!2d30.131212397344665!3d50.51776970854919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1692705049100!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 
